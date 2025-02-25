@@ -7733,7 +7733,7 @@ class phplot
                 break;
             case 'diamond':
                 $arrpoints = array($x1, $y, $x, $y1, $x2, $y, $x, $y2);
-                ImageFilledPolygon($this->img, $arrpoints, 4, $color);
+                ImageFilledPolygon($this->img, $arrpoints, $color);
                 break;
             case 'triangle':
                 $arrpoints = array($x1, $y, $x2, $y, $x, $y2);
